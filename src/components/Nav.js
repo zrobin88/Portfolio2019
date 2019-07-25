@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../IMG/ZacharyRobin_07_2019.pdf'
+import Resume from '../IMG/ZacharyRobinResume2019.docx'
 import './style.css'
 
 const Nav = () => {
