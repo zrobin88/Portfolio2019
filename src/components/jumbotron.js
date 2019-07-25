@@ -54,7 +54,7 @@ class Jumbotron extends Component {
                     <hr className="my-4" />
 
                     <a className="btn btn-primary btn-md appLink" target='_blank'rel="noopener noreferrer" href={appLink[currentIndex]} role="button">Go to App</a>
-                    <a className="btn btn-primary btn-md ghLink" target='_blank' rel="noopener noreferrer" href={ghLink} style={{ float: 'right' }} role="button">Github Repo</a>
+                    <a className="btn btn-primary btn-md ghLink" target='_blank' rel="noopener noreferrer" href={ghLink[currentIndex]} style={{ float: 'right' }} role="button">Github Repo</a>
                     <div className='row'>
                         <div className='col-sm-4'>
                             <button type="button" id='prev' className="btn btn_color" onClick={this.goToPrev}>Previous</button>
