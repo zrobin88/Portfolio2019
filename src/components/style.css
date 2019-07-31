@@ -9,6 +9,11 @@
 .card{
 
 }
+#myApps{
+    position: relative;
+    bottom: 40px;
+    left: 36%;
+}
 #next{
     margin-top: 10px;
     float: right; 
