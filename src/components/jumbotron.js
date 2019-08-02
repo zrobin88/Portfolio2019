@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './style.css'
 // import img01 from '../IMG/p4.jpg';
 
-
 class Jumbotron extends Component {
 
     state = {
@@ -42,6 +41,7 @@ class Jumbotron extends Component {
 
 
     render() {
+        let linkData = this.props.linkData
         const { title, currentIndex, description, appLink, ghLink } = this.state;
         return (
             <div className='ui container'>
@@ -62,9 +62,12 @@ class Jumbotron extends Component {
                         <div className='col-sm-4'></div>
                         <div className='col-sm-4'>
                             <button type="button" id='next' className="btn btn_color jtbtn" onClick={this.goToNext}>Next</button>
+                       
                         </div>
+                     
                     </div>
                 </div>
+               
             </div>
         )
     }
