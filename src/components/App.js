@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import Card from './card';
 import Jumbotron from './jumbotron';
 import Nav from './Nav';
+import img from '../IMG/moon.jpg'
 class App extends Component{
     
-    state={}
+  
 
     render(){
     return(
