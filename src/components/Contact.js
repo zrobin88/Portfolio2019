@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-// import img01 from '../IMG/p4.jpg';
+
 
 
 class Contact extends Component {
