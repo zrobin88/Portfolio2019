@@ -35,7 +35,7 @@ class Card extends Component{
     render(){
         const{header,text,btnText,currentIndex}=this.state
     return (
-       
+       <div className='container'>
         <div className="card mb-3m poppins text-light"style={{'max-width': '93%'}} id='pf'>
             <div className="row ">
                 <div className="col-md-4"style={{padding:'20px'}}>
@@ -51,7 +51,7 @@ class Card extends Component{
                     </div>
                 </div>
             </div>
-
+            </div>
             )
         }
     }

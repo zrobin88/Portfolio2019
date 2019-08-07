@@ -6,7 +6,7 @@ const Nav = () => {
 
     return (
 
-    <nav className="navbar poppins text-light">
+    <nav className="navbar poppins text-light mainNav">
             <a className="navbar-brand text-light" href="test">
                <ins id='ul'>  Zack Robin </ins>  
             </a>

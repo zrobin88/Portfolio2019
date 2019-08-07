@@ -44,7 +44,7 @@ class Jumbotron extends Component {
         let linkData = this.props.linkData
         const { title, currentIndex, description, appLink, ghLink } = this.state;
         return (
-            <div className='ui container'>
+            <div className='container'>
            
                 <div className="jumbotron poppins text-light">
                 <h1 id='myApps'>My Apps</h1>
