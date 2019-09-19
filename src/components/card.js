@@ -9,7 +9,7 @@ class Card extends Component{
     state={
         count: 2,
         header: ['From Musician to Developer', 'Contact Info'],
-        text: ['My name is Zack Robin I am a web developer with a background in music, recording-technology and entertainment business. My skills Include: - React.js - Javascript - HTML5/CSS3 - SQL/MongoDB - Node.js - Express.js - Working with APIs - Knowledge of MVC architecture - Knowledge of MERN stack', '- zrobin88@gmail.com - (407)416-9895'],
+        text: ['My name is Zack Robin I am a web developer with a background in music, recording-technology and entertainment business. My skills Include: - React.js - Javascript - ES6 - HTML5/CSS3 - jQuery - Bootstrap(and other CSS libraries) - Relational and Non-Relational Databases - Node.js - Express - API - MVC app architecture - MERN stack - AWS', '- zrobin88@gmail.com - (407)416-9895'],
         btnText: ['Contact','Go Back'],
         currentIndex: 0,
         translateValue: 0

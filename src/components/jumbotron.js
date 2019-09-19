@@ -45,29 +45,35 @@ class Jumbotron extends Component {
         const { title, currentIndex, description, appLink, ghLink } = this.state;
         return (
             <div className='container'>
-           
-                <div className="jumbotron poppins text-light">
-                <h1 id='myApps'>My Apps</h1>
+            <div className='row'>
+                
+                <div className="jumbotron apptron poppins text-light">
+                <h1 className='myApps'>My Apps</h1>
                     <h2 className="title">{title[currentIndex]}</h2>
 
                     <p className="font-weight-light">{description[currentIndex]}</p>
                     <hr className="my-4" />
-
-                    <a className="btn btn-primary btn-md appLink jtbtn" target='_blank'rel="noopener noreferrer" href={appLink[currentIndex]} role="button">Go to App</a>
-                    <a className="btn btn-primary btn-md ghLink jtbtn" target='_blank' rel="noopener noreferrer" href={ghLink[currentIndex]} style={{ float: 'right' }} role="button">Github Repo</a>
                     <div className='row'>
-                        <div className='col-sm-4'>
+             
+                    <a className="btn btn-primary btn-md appLink jtbtn" target='_blank'rel="noopener noreferrer" href={appLink[currentIndex]} role="button">Go to App</a>
+                   
+               
+                    <a className="btn btn-primary btn-md ghLink jtbtn" target='_blank' rel="noopener noreferrer" href={ghLink[currentIndex]}  role="button">Github Repo</a>
+                  
+                    </div>
+
+                    <div className='row'>
+                        
                             <button type="button" id='prev' className="btn btn_color jtbtn" onClick={this.goToPrev}>Previous</button>
-                        </div>
-                        <div className='col-sm-4'></div>
-                        <div className='col-sm-4'>
+                      
+              
                             <button type="button" id='next' className="btn btn_color jtbtn" onClick={this.goToNext}>Next</button>
                        
-                        </div>
+                    
                      
                     </div>
                 </div>
-               
+                </div>
             </div>
         )
     }
