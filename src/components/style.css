@@ -4,20 +4,34 @@
     margin-left:15px;
     margin-right:15px; 
     margin-bottom:10%;
-    background-color: rgb(46, 76, 88);
+    background-color: rgb(30, 105, 160);
     opacity: 0.8
 }
 .card{
 
 }
-#myApps{
-    position: relative;
-    bottom: 40px;
-    left: 36%;
+.linkedin{
+
+}
+.exp{
+
+}
+.name{
+    font-size: 1.95rem;
+    font-family: Poppins;
+    font-weight: 100;
+    text-decoration: underline;
+    text-shadow: 2px 2px #212529;
+    padding: 2%;
+}
+.myApps{
+   text-align: center;
+   
 }
 #next{
     margin-top: 10px;
-    float: right; 
+    float: right;
+    
 }
 #ul{
     margin-top:5px;
@@ -37,14 +51,14 @@
 } */
 .img{
     padding: 12%;
-    border-radius: 53%; 
+    border-radius: 30%; 
    
 }
 .jumbotron{
     position: relative;
     border-radius: 15px;
     bottom: 10%;
-    background-color: rgb(46, 76, 88);
+    background-color: rgb(30, 105, 160);
     width: 92.5%;
     padding: 6rem 4rem;
     margin-left: 2%;
@@ -61,15 +75,20 @@
     font-family: 'Roboto', sans-serif;
 }
 .navbar{
-    background-color: rgb(46, 76, 88);
+    background-color: rgb(30, 105, 160);
     opacity:0.8;
+    width: 100%;
  
     
 
 }
-#linkedin-btn{
-    position: relative;
-    left: 32.5%;
+
+.ghLink{
+    float: right
+}
+.top-btn{
+    margin-top:10px; 
+    margin-bottom: 10px;
 }
 .mainNav{
     position: relative;
@@ -96,12 +115,22 @@
         left: -4%;
         
     }
+    .btn-container{
+        display: grid;
+      
+    }
+    #next{
+        margin-top: 10px;
+        position: relative;
+        bottom: 98%;
+        float: right;
+    }
  
-    /* .ghLink{
+    .ghLink{
         position: relative;
         bottom: 38px;
         left: 30px;
-    } */
+    }
     /* .jtbtn{
         
     } */

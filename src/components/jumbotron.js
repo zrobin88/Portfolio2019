@@ -47,31 +47,35 @@ class Jumbotron extends Component {
             <div className='container'>
             <div className='row'>
                 
-                <div className="jumbotron apptron poppins text-light">
+                <div className="jumbotron apptron poppins text-light exp">
                 <h1 className='myApps'>My Apps</h1>
                     <h2 className="title">{title[currentIndex]}</h2>
 
                     <p className="font-weight-light">{description[currentIndex]}</p>
                     <hr className="my-4" />
+                    <div class='btn-container'>
                     <div className='row'>
-             
+                    <div className='col-md-4'>
                     <a className="btn btn-primary btn-md appLink jtbtn" target='_blank'rel="noopener noreferrer" href={appLink[currentIndex]} role="button">Go to App</a>
-                   
-               
+                    </div>
+                    <div className='col-md-4'></div>
+                    <div className='col-md-4'>
                     <a className="btn btn-primary btn-md ghLink jtbtn" target='_blank' rel="noopener noreferrer" href={ghLink[currentIndex]}  role="button">Github Repo</a>
-                  
+                    </div>
                     </div>
 
                     <div className='row'>
-                        
+                    <div className='col-sm-4'>
                             <button type="button" id='prev' className="btn btn_color jtbtn" onClick={this.goToPrev}>Previous</button>
-                      
-              
+                        </div>
+                            <div className='col-sm-4'></div>
+                    <div className='col-sm-4'>
                             <button type="button" id='next' className="btn btn_color jtbtn" onClick={this.goToNext}>Next</button>
-                       
+                            </div>  
                     
-                     
+                  
                     </div>
+                    </div> 
                 </div>
                 </div>
             </div>

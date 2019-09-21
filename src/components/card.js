@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Img from '../IMG/portrait.jpg'
+import Resume from '../IMG/ZacharyRobinResume2019.docx'
 import './style.css'
 
 
@@ -36,7 +37,7 @@ class Card extends Component{
         const{header,text,btnText,currentIndex}=this.state
     return (
        <div className='container'>
-        <div className="card mb-3m poppins text-light"style={{'max-width': '93%'}} id='pf'>
+        <div className="card mb-3m poppins text-light exp"style={{'max-width': '93%'}} id='pf'>
             <div className="row ">
                 <div className="col-md-4"style={{padding:'20px'}}>
                     <img src={Img} className="card-img img" alt="..."/>
@@ -47,6 +48,8 @@ class Card extends Component{
                             <p className="card-text">{text[currentIndex]}</p>
                            
                             <button type="button" id='contact'onClick={this.contactClick}className="btn  btn-outline-light btn-sm">{btnText[currentIndex]}</button>
+                         
+                           
                         </div>
                     </div>
                 </div>
