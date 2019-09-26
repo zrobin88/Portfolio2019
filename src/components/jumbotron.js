@@ -48,7 +48,7 @@ class Jumbotron extends Component {
             <div className='row'>
                 
                 <div className="jumbotron apptron poppins text-light exp">
-                <h1 className='myApps'>My Apps</h1>
+                <h1 className='myApps'>My Applications</h1>
                     <h2 className="title">{title[currentIndex]}</h2>
 
                     <p className="font-weight-light">{description[currentIndex]}</p>

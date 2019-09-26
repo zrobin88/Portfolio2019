@@ -26,6 +26,7 @@
 }
 .myApps{
    text-align: center;
+   margin-bottom: 30px;
    
 }
 #next{
@@ -53,6 +54,9 @@
     padding: 12%;
     border-radius: 30%; 
    
+}
+#contact{
+    margin-right:10px;
 }
 .jumbotron{
     position: relative;
