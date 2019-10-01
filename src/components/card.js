@@ -11,11 +11,11 @@ class Card extends Component {
         count: 3,
         header: ['About Me:', 'Contact Info', 'Web Development Skills and Technologies', 'Music & Production Skills'],
         text: ['My name is Zack Robin and I am a web developer with a background in music, recording-technology and entertainment business. Music has always been my greatest passion in life and technology has been what advances it. Through out the past two decades, technology has drastically reshaped music from the way busisness is done, to how it is produced and to how consumers listen to it. This was my primary motivation to get into software development. Technology is able to do incredible things in our modern era and its incredibly exciting to work in the midst of it. Through technology, I aim to change the music industry and the musical experience as a whole. ', '- zrobin88@gmail.com - (407)416-9895', ''],
-        skills:[[],[],['React.js','Javascript','ES6', 'HTML5/CSS3', 'jQuery', 'Bootstrap(and other CSS libraries)', 'Relational and Non-Relational Databases', 'Node.js', 'Express','API ','MVC','MERN stack', 'AWS'],['Pro Tools', 'Logic Pro', 'Knowledge of Microphone Theory', 'Concise knowledge of signal flow','Experience working in professional studios', 'Experience producing full-length albums', 'Experienc working with recoridng artist', ' Experience recording albums as an artist myself', 'Perfect Pitch (the ability to identify musical notes by hearing alone)', '20 years experience as a guitarist']],
+        skills:[[],[],['React.js','Javascript/ES6', 'HTML5/CSS3', 'jQuery', 'Bootstrap(and other CSS libraries)', 'Relational and Non-Relational Databases', 'Node.js', 'Express','API ','MVC','MERN stack', 'AWS'],['Extensive Knowledge of DAW software specifically Pro Tools and Logic X', 'Knowledge of Microphone Theory', 'Concise knowledge of signal flow','Experience working in professional studios', 'Experience producing full-length albums', 'Experience working with recoridng artists', ' Experience recording albums as an artist myself', 'Perfect Pitch (the ability to identify musical notes by hearing alone)', '20 years experience as a guitarist', 'Experience playing live shows and tours']],
         btnText: ['Contact', 'Go Back', 'Go Back', 'Go Back'],
         btnText2: 'Music & Production',
         btnText3: 'Web Development',
-        cardText: ['', '', 'This Portfolio Was Made With React.js'],
+        cardText: ['Check out examples of my work below!', '', 'This Portfolio Was Made With React.js'],
         currentIndex: 0,
         translateValue: 0
     }
@@ -74,7 +74,7 @@ class Card extends Component {
         
         return (
             <div className='container'>
-                <div className="card mb-3m poppins text-light exp" style={{ 'max-width': '93%' }} id='pf'>
+                <div className="card mb-3m poppins aboutMe text-light exp" style={{ 'max-width': '93%' }} id='pf'>
                     <div className="row ">
                         <div className="col-md-4" style={{ padding: '20px' }}>
                             <img src={Img} className="card-img img" alt="..." />
@@ -91,11 +91,12 @@ class Card extends Component {
 
                                 </ul>
                                 <br></br>
-                                <p className='card-text'>{cardText[currentIndex]}</p>
+                                
                                 <button type="button" id='contact' onClick={this.contactClick} className="btn  btn-outline-light btn-sm">{btnText[currentIndex]}</button>
                                 <button type="button" id='contact' onClick={this.devClick} className="btn  btn-outline-light btn-sm">{btnText3}</button>
                                 <button type="button" id='contact' onClick={this.musicClick} className="btn  btn-outline-light btn-sm">{btnText2}</button>
-
+                                <br></br>
+                                <p className='card-text'style={{'margin-top':'20px'}}>{cardText[currentIndex]}</p>
                             </div>
                         </div>
                     </div>

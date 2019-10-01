@@ -10,7 +10,20 @@
 .card{
 
 }
+.description{
+    padding: 20px; 
+}
 .linkedin{
+
+}
+.musicAudio{
+    float: right;
+}
+.upperBtn{
+    padding:10px;
+    position: relative;
+    bottom: 80%;
+    text-emphasis: bold;
 
 }
 .exp{
@@ -33,6 +46,9 @@
     margin-top: 10px;
     float: right;
     
+}
+.aboutMe{
+    box-shadow: 10px 10px 5px grey;
 }
 #ul{
     margin-top:5px;
@@ -60,6 +76,7 @@
 }
 .jumbotron{
     position: relative;
+    box-shadow: 10px 10px 5px grey;
     border-radius: 15px;
     bottom: 10%;
     background-color: rgb(30, 105, 160);
