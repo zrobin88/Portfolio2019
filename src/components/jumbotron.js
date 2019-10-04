@@ -62,8 +62,8 @@ class Jumbotron extends Component {
             appLink: ['https://open.spotify.com/artist/386vqvNmndYq0FjjJi2eHS?si=U_HEhpYuQ5CywFxUIEfoxQ',],
             ghLink: ['https://detouraband.com',],
 
-            btnText1: ['Listen on Spotify', ],
-            btnTex2: ['Band Website']
+            // btnText1: ['Listen on Spotify', ],
+            // btnTex2: ['Band Website']
         })
     }
 
@@ -79,10 +79,10 @@ class Jumbotron extends Component {
                     <div className="jumbotron apptron poppins text-light exp">
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <button type="button" className="btn btn-outline-light upperBtn web" onClick={this.resetState}>Web Apps</button>
+                                {/* <button type="button" className="btn btn-outline-light upperBtn web" onClick={this.resetState}>Web Apps</button> */}
                             </div>
                             <div className='col-lg-6'>
-                                <button type="button" className="btn  btn-outline-light upperBtn musicAudio" onClick={this.switchTheme}>Music/Audio</button>
+                                {/* <button type="button" className="btn  btn-outline-light upperBtn musicAudio" onClick={this.switchTheme}>Music/Audio</button> */}
                             </div>
                         </div>
                         <h1 className='myApps'>{header}</h1>

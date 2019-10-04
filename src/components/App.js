@@ -5,7 +5,6 @@ import Nav from './Nav';
 import img from '../IMG/moon.jpg'
 class App extends Component{
     
-  
 
     render(){
     return(
