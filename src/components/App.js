@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Card from './card';
 import Jumbotron from './jumbotron';
 import Nav from './Nav';
+import Footer from './Footer'
 import img from '../IMG/moon.jpg'
 class App extends Component{
     
@@ -15,7 +16,7 @@ class App extends Component{
             <div className='row'>
             <Jumbotron />
             </div>
-            
+            <Footer />
         </div>
         
     )
