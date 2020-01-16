@@ -2,11 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <nav class="navbar navbar-light foot">
-              
-                </nav>
-        </div>
+        <footer>
+         <span className='foot'></span>
+        </footer>
             )
         }
         

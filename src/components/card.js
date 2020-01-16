@@ -14,7 +14,7 @@ class Card extends Component {
         skills:[[],[],['React.js','Javascript/ES6', 'HTML5/CSS3', 'jQuery', 'Bootstrap(and other CSS libraries)', 'Relational and Non-Relational Databases', 'Node.js', 'Express','API ','MVC','MERN stack', 'AWS'],['Extensive Knowledge of DAW software specifically Pro Tools and Logic X', 'Knowledge of Microphone Theory', 'Concise knowledge of signal flow','Experience working in professional studios', 'Experience producing full-length albums', 'Experience working with recoridng artists', ' Experience recording albums as an artist myself', 'Perfect Pitch (the ability to identify musical notes by hearing alone)', '20 years experience as a guitarist', 'Experience playing live shows and tours']],
         btnText: ['Contact', 'Go Back', 'Go Back', 'Go Back'],
         btnText2: 'Music & Production',
-        btnText3: 'Web Development',
+        btnText3: 'Skills and Technologies',
         cardText: ['Check out examples of my work below!', '', 'This Portfolio Was Made With React.js'],
         currentIndex: 0,
         translateValue: 0
@@ -94,7 +94,7 @@ class Card extends Component {
                                 
                                 <button type="button" id='contact' onClick={this.contactClick} className="btn  btn-outline-light btn-sm">{btnText[currentIndex]}</button>
                                 <button type="button" id='contact' onClick={this.devClick} className="btn  btn-outline-light btn-sm">{btnText3}</button>
-                                <button type="button" id='contact' onClick={this.musicClick} className="btn  btn-outline-light btn-sm">{btnText2}</button>
+                              
                                 <br></br>
                                 <p className='card-text'style={{'margin-top':'20px'}}>{cardText[currentIndex]}</p>
                             </div>
