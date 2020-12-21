@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Img from '../IMG/portrait.jpg'
+import Img from '../IMG/zr1.jpg'
 import Resume from '../IMG/ZacharyRobinResume2019.docx'
 import './style.css'
 
@@ -37,21 +37,21 @@ class Card extends Component {
         }
     }
 
-    musicClick = (event) => {
-        event.preventDefault();
-        if (this.state.currentIndex === 0 || 1 | 2) {
-            return this.setState({
-                currentIndex: 3,
-                translateValue: 3
-            })
-        }
-        else if (this.state.currentIndex === 1) {
-            return this.setState({
-                currentIndex: 3,
-                translateValue: 3
-            })
-        }
-    }
+    // musicClick = (event) => {
+    //     event.preventDefault();
+    //     if (this.state.currentIndex === 0 || 1 | 2) {
+    //         return this.setState({
+    //             currentIndex: 3,
+    //             translateValue: 3
+    //         })
+    //     }
+    //     else if (this.state.currentIndex === 1) {
+    //         return this.setState({
+    //             currentIndex: 3,
+    //             translateValue: 3
+    //         })
+    //     }
+    // }
     devClick = (event) => {
         event.preventDefault();
         if (this.state.currentIndex === 0 || 1 || 3) {
