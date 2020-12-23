@@ -73,13 +73,13 @@ class Card extends Component {
         const { header, text, btnText, btnText2, btnText3, cardText, currentIndex } = this.state
         
         return (
-            <div className='container'>
-                <div className="card mb-3m poppins aboutMe text-light exp" style={{ 'max-width': '93%' }} id='pf'>
+            <div className='container cardWrap'>
+                <div className="card mb-3m poppins aboutMe text-light exp" style={{ 'max-width': '100%' }} id='pf'>
                     <div className="row ">
-                        <div className="col-md-4" style={{ padding: '20px' }}>
+                        <div className="col-sm-6" style={{ padding: '20px' }}>
                             <img src={Img} className="card-img img" alt="..." />
                         </div>
-                        <div className="col-md-8" style={{ padding: '20px' }}>
+                        <div className="col-sm-6" style={{ padding: '20px' }}>
                             <div className="card-body">
                                 <h5 className="card-title">{header[currentIndex]}</h5>
                                 <p className="card-text">{text[currentIndex]}</p>

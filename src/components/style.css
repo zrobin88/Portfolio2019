@@ -5,7 +5,7 @@
     margin-right:15px; 
     margin-bottom:10%;
     background-color: #303335;
-    opacity: 0.8
+    opacity: 0.98
 }
 .card{
 
@@ -13,8 +13,12 @@
 .description{
     padding: 20px; 
 }
-.linkedin{
+/* .linkedin{
 
+} */
+.cardWrap{
+    max-width: 65%;
+    float: left;
 }
 .musicAudio{
     float: right;
@@ -75,15 +79,17 @@
     margin-right:10px;
 }
 .jumbotron{
+    
     position: relative;
-    box-shadow: 10px 10px 5px grey;
+    overflow: scroll;
     border-radius: 15px;
     bottom: 10%;
     background-color: #303335;
-    width: 92.5%;
-    padding: 6rem 4rem;
+    /* width: 92.5%; */
+    padding: 5.7rem 4rem;
     margin-left: 2%;
-    opacity:0.8
+    margin-right:2%;
+    opacity:0.98
 }
 #app-header{
     text-align: center; 
